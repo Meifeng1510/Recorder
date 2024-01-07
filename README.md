@@ -39,6 +39,9 @@ Compression Ratio: 75%
 
 ## Description
 
+The system imposes a minimum of 20Hz on the resumption cycle to prevent script timeout and ensure
+it doesn't get too laggy. Processing time can be modified to suit your needs.
+
 DataStore limit is 4MB per key with 60 requests per minute for each server (unaccounted-for players).
 Assuming memory consumption stays the same, you can easily record up to 60 fps with 9378 moving parts
 while being able to autosave to DataStore.
