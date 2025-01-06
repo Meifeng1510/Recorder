@@ -47,9 +47,8 @@ Assuming memory consumption stays the same, you can easily record up to 60 fps w
 while being able to autosave to DataStore.
 
 It takes 7ms to track 1027 moving parts, which imposes a limit of 142.8 fps (not accounting for other time spent).
-This shows how highly optimized the code is, and will be able to handle a high amount of dynamic parts.
-Assuming the same ratio, you can record at 20fps while having 7335 dynamic parts.
-This benchmark of course depends on the CPU specification, so if it was done from the server,
-the result would be significantly better.
+This is enough to handle a high amount of dynamic parts. Assuming the same ratio, you can record at 20fps while having
+7335 dynamic parts. This benchmark of course depends on the CPU specification, so if it was done from the server,
+the result would be different.
 
 -------------------------------------------------------------------------------------------------------------------------------------------
